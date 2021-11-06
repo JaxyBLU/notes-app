@@ -9,7 +9,7 @@ if(allNotes.length > 0){
 	addNewNote("");
 }
 
-
+addNewNote("");
 
 /*=========================  Function for adding new empty note =============================*/
 function addNewNote(text = ""){
