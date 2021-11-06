@@ -1,0 +1,67 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	height: 100vh;
+	width: 100%;
+	margin: 0;
+	background-color: #4dd2ff;
+	font-family: "Montserrat", sans-serif;
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.note{
+	margin: 20px;
+	overflow: hidden;
+	height: 350px;
+	width: 350px;
+	background-color: #ccffe6;
+}
+
+.note .tools{
+	display: flex;
+	justify-content: flex-end;
+	height: 10%;
+	background-color: #99ffcc;
+}
+
+.tools button, .options button{
+	height: 100%;
+	width: 10%;
+	border: none;
+	background-color: transparent;
+	font-size: 1rem;
+}
+
+.tools button:hover, .options button:hover{
+	background-color: #66ffb3;
+}
+
+.note .textplace{
+	width: 100%;
+	height: 90%;
+	overflow-y: auto;
+	font-size: 1rem;
+	padding: 3px;
+}
+
+textarea{
+	font-size: 1rem;
+	width: 100%;
+	height: 90%;
+	resize: none;
+	border: none;
+	outline: none;
+	overflow-y: auto;
+	padding: 3px;
+}
+
+.note .hidden{
+	display: none;
+}
+
